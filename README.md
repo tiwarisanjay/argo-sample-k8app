@@ -39,7 +39,7 @@ argocd account update-password
 - Now loging to UI again with new Password. 
 *** Argo CD is ready to install the applicaiton now ***
 
-## Install APP for ArgoCD
+## Install APP for ArgoCD : Simple Hello world way 
 - Clone the repo :
 ```
 git clone https://github.com/tiwarisanjay/argo-sample-k8app.git
@@ -66,4 +66,8 @@ argocd app delete devops-toolkit
 ```
 kubectl --namespace devops-toolkit \
     get all
+```
+- Delete the namespace if you dont need it. 
+```
+kubectl delete ns devops-toolkit 
 ```
