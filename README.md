@@ -37,7 +37,7 @@ argocd login \
 argocd account update-password
 ```
 - Now loging to UI again with new Password. 
-*** Argo CD is ready to install the applicaiton now ***
+- *** Argo CD is ready to install the applicaiton now ***
 
 ## Install APP for ArgoCD : Simple Hello world way 
 - Clone the repo :
